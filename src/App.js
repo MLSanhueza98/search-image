@@ -7,7 +7,7 @@ import './article.css'
 
 const App = () => {
   const [photos, setPhotos] = useState([])
-  console.log({photos})
+  
   const open = url => {
     window.open(url)
   }
